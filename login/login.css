@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("https://img.freepik.com/vetores-gratis/quadro-de-fundo-cinza-fluido_53876-116701.jpg?w=740&t=st=1685593689~exp=1685594289~hmac=e150379bda5b14d3075d49940e77375e79fdcbce1361b005d832e0f63cc8e056");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+    margin: auto auto;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 60%;
+    height: 70%;
+    background-color: #1b59e0;
+    border-radius: 5px;
+}
+
+.login-form>input {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    background-color: #E8F1F2;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-form>a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-top: 0.3rem;
+    padding: 0.5rem;
+    color: #026dac;
+    background-color: #E8F1F2;
+    border: none;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.login-form>p>a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-form>p>a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.login-form>img {
+    width: 25%;
+}

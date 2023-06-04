@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registerLostItem.css">
+    <title>Cadastrar item perdido</title>
+</head>
+
+<body>
+    <section class="register-lost-item-section">
+        <form action="post" class="lost-item-form">
+            <h1>Cadastro de item perdido</h1>
+            <div class="area">
+                <span>
+                    <input type="text" name="item-name" id="item-name" placeholder="Nome do item">
+                </span>
+                <span>
+                    <input type="text" name="local-found" id="local-found" placeholder="Local encontrado">
+                </span>
+            </div>
+            <div class="area">
+                <span>
+                    <input type="datetime" name="found-date" id="found-date" placeholder="Data de encontro">
+                </span>
+                <span>
+                    <input type="datetime" name="register-date" id="register-date" placeholder="Data de cadastro">
+                </span>
+            </div>
+            <div class="area">
+                <span>
+                    <input type="text" name="status" id="status" placeholder="Status">
+                </span>
+                <span>
+                    <input type="text" name="category" id="category" placeholder="Categoria">
+                </span>
+            </div>
+            <textarea name="description" id="description" cols="30" rows="3" placeholder="Descrição"></textarea>
+            <input type="file" name="file" id="file">
+            <a href="#">Cadastrar</a>
+        </form>
+    </section>
+</body>
+
+</html>
